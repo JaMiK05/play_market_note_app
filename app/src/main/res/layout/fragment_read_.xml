@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    tools:context=".presentation.screen.fragments.read.Read_Fragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="tik tokda nmalar bolyapti "
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:paddingHorizontal="8dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:paddingTop="15dp"
+            android:paddingHorizontal="10dp"
+            android:text="vbvhwrowrhhwhfhwhfhhwhfvhvhohhhvhhdvhohohfhhdjhfjhdjhfjhddjhfjhsdfhsdhidfhdfhdfhhdfiofdhihdhfdhvfhohvhrvh"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

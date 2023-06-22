@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_notes"
+        android:title="Notes"
+        app:showAsAction="withText"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/archiveFragment"
+        android:icon="@drawable/ic_archive"
+        android:title="Archive"
+        app:showAsAction="withText"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/trashFragment"
+        android:icon="@drawable/ic_trash"
+        android:title="Trash bin"
+        app:showAsAction="withText"
+        tools:ignore="HardcodedText" />
+
+
+    <item
+        android:title="contact the developer"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/telegram"
+                android:icon="@drawable/telegram"
+                android:title="telegram"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/tik"
+                android:icon="@drawable/tik_tok"
+                android:title="Tik Tok"
+                tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+
+    <item
+        android:title="share link"
+        tools:ignore="HardcodedText">
+
+        <menu>
+            <item
+                android:id="@+id/shared"
+                android:icon="@drawable/network"
+                android:title="Share">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
